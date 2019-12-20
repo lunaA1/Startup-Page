@@ -1,0 +1,119 @@
+/* Css for index.html file */
+
+
+*
+{
+	padding: 0;
+	margin: 0;
+}
+html, body {
+	height: 1vh;
+	font-size: 60px;
+}
+body {
+	background-image: url("bg.jpg") !important; /* Change background */
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+	overflow: hidden;
+}
+/* Animation css*/
+ #particles-js {
+ 	position: absolute; top:0;
+ 	width: 100%;
+ 	height: 100%;
+ 	z-index: -1;
+ }
+::-webkit-scrollbar { 
+
+    display: none; 
+
+}
+/* Center id */
+#center {
+	font-family: 'Lobster', cursive;
+	font-weight: normal; /* Change font */
+	border-radius: 10px;
+	height: 100px;
+	width: 35%;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	/*Change color2*/
+}
+
+#googleSearch {
+	font-family: 'Lobster', cursive;
+	font-weight: normal; /* Change font */
+	height: 50px;
+	width: 100%;
+	font-size: 35px;
+	border-color: #4C7D21;
+	border-radius: 15px;
+	border-width: 6px;
+	z-index: 1;
+	outline: none;
+	padding-left: 3px;
+}
+
+#clock {
+	font-family: 'Lobster', cursive;
+	font-weight: normal; /* Change font */
+	font-size: 100px;
+	color: #52217D;				   /*Change color*/
+	float: left;
+}
+/* Submenu */
+#subMenu1 ,#subMenu2{
+    margin-top: 2px;
+}
+#cat1, #cat2 {
+    color: white;
+}
+
+/* Navigation section*/
+nav {
+	font-family: Georgia; /* Change font */
+   	background-color: rgba(0,0,0,0.5);
+   	top: 0px !important;
+    width: 100%;
+    height: 40px;
+    line-height: 25px;
+    position: absolute; 
+    font-size: 24px;
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    padding-right: 50px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color: black;
+    border-radius: 16px 16px 5px 5px;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+nav ul li ul li {
+    width: 150px;
+
+}
+/* Category id */
+ul li a:hover {
+    color: #52217D;					/*Change color*/
+}
+
+ul li a:hover {
+    color: #52217D;					/*Change color*/
+}

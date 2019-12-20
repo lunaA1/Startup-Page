@@ -1,0 +1,61 @@
+<!-- 20191217 Website purpose: 
+	This website is to create a start page for personal use. The program has a 24 hour clock, Google serach bar
+	and links to websites. 
+-->
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>Start page</title>
+
+	<!-- Style Sheet and Font -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
+</head>
+<body onload="updateClock(); setInterval('updateClock()' , 1000)">
+	<div id="particles-js"></div>
+<!-- Start of center div (clock and Google search bar) -->
+	<div id="center">
+		<strong><span id="clock">&nbsp</span></strong>
+		<form action="https://www.google.com/search" class="searchFrom" target="_blank">
+		<input name="sitesearch" type="hidden" value="">
+		<input autocomplete="off" id="googleSearch" name="q" autofocus="autofocus" placeholder="Searching..." required="required" type="text">	
+		</form>
+	</div> <!-- End of center -->
+
+
+<!-- Start of Navigation and menu tabs -->
+
+	<nav>
+        <ul>
+            <li id="cat1">
+                Productive
+                <ul id="subMenu1">
+                    <li><a id="link1" href="https://github.com">Github</a></li>
+					<li><a id="link2" href="https://www.linkedin.com">LinkedIn</a></li>
+					<li><a id="link3" href="https://www.indeed.com/">Indeed</a></li>
+					<li><a id="link4" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
+					<li><a id="link5" href="https://www.udemy.com/">Udemy</a></li>
+                </ul>
+            </li>
+            <li id="cat2">
+                Fun
+                <ul id="subMenu2">
+                    <li><a id="link6" href="https://osu.ppy.sh/home">OSU</a></li>
+					<li><a id="link7" href="https://www.reddit.com/">Reddit</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+</body>
+<script src="js/particles.min.js"></script>
+<script src="js/app.js"></script>
+<script src="js/clock.js"></script>
+	
+</html>
