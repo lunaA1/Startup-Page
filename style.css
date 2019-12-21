@@ -32,12 +32,12 @@ body {
 }
 /* Center id */
 #center {
-	font-family: 'Lobster', cursive;
+	font-family: 'Indie Flower', cursive;
 	font-weight: normal; /* Change font */
 	border-radius: 10px;
 	height: 100px;
 	width: 35%;
-	margin-top: 50px;
+	margin-top: 0px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 10px;
@@ -45,14 +45,14 @@ body {
 }
 
 #googleSearch {
-	font-family: 'Lobster', cursive;
+	font-family: 'Indie Flower', cursive;
 	font-weight: normal; /* Change font */
-	height: 50px;
+	height: 55px;
 	width: 100%;
-	font-size: 35px;
+	font-size: 40px;
 	border-color: #4C7D21;
-	border-radius: 15px;
-	border-width: 6px;
+	border-radius: 5px;
+	border-width: 3px;
 	z-index: 1;
 	outline: none;
 	padding-left: 3px;
@@ -61,7 +61,7 @@ body {
 #clock {
 	font-family: 'Lobster', cursive;
 	font-weight: normal; /* Change font */
-	font-size: 100px;
+	font-size: 160px;
 	color: #52217D;				   /*Change color*/
 	float: left;
 }
@@ -75,14 +75,14 @@ body {
 
 /* Navigation section*/
 nav {
-	font-family: Georgia; /* Change font */
+	font-family: 'Indie Flower', cursive; /* Change font */
    	background-color: rgba(0,0,0,0.5);
-   	top: 0px !important;
+   	top: 0.2px !important;
     width: 100%;
-    height: 40px;
+    height: 45px;
     line-height: 25px;
     position: absolute; 
-    font-size: 24px;
+    font-size: 37px;
 }
 nav ul li {
     float: left;

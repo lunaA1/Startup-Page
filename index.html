@@ -16,15 +16,16 @@
 	<!-- Style Sheet and Font -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet"> 
 </head>
 <body onload="updateClock(); setInterval('updateClock()' , 1000)">
 	<div id="particles-js"></div>
 <!-- Start of center div (clock and Google search bar) -->
 	<div id="center">
-		<strong><span id="clock">&nbsp</span></strong>
+		<span id="clock">&nbsp</span>
 		<form action="https://www.google.com/search" class="searchFrom" target="_blank">
-		<input name="sitesearch" type="hidden" value="">
-		<input autocomplete="off" id="googleSearch" name="q" autofocus="autofocus" placeholder="Searching..." required="required" type="text">	
+		<input name="submit" type="hidden" value="Google Search">
+		<input autocomplete="off" id="googleSearch" name="q" autofocus="autofocus" placeholder="Searching on Google..." required="required" type="text">	
 		</form>
 	</div> <!-- End of center -->
 
